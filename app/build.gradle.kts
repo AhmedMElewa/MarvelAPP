@@ -56,8 +56,8 @@ android {
         create("dTesting") {
             //flavor configurations here
             buildConfigField("String", "API_BASE_URL", "\"https://gateway.marvel.com/v1/public/\"")
-            buildConfigField("String", "API_KEY", "\"422ec1c051c583c5798193c38d2e91d7\"")
-            buildConfigField("String", "PRIVATE_KEY", "\"27b4151138cd374667eda860b4ca0a16d0d9191a\"")
+            buildConfigField("String", "API_KEY", API_KEY)
+            buildConfigField("String", "PRIVATE_KEY", PRIVATE_KEY)
         }
         create("prod") {
             //flavor configurations here
